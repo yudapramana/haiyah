@@ -28,5 +28,8 @@ class RolesTableSeeder extends Seeder
         $user = User::where('username', '199407292022031002')->first();
         $user->assignRole('super_administrator', 'administrator');
 
+        $user2 = User::where('username', '198605082011011013')->first();
+        $user2->assignRole('super_administrator', 'administrator');
+
     }
 }
