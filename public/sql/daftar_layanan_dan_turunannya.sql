@@ -86,12 +86,12 @@ CREATE TABLE `daftar_layanan` (
 -- Records of daftar_layanan
 -- ----------------------------
 BEGIN;
-INSERT INTO `daftar_layanan` VALUES (1, NULL, NULL, NULL, 'Pelayanan terkait Bidang dan turunannya', 1, 1, 1, 1, 0, '', '');
-INSERT INTO `daftar_layanan` VALUES (2, NULL, NULL, NULL, 'Pelayanan terkait Bidang dan turunannya', 2, 2, 2, 1, 0, '', '');
-INSERT INTO `daftar_layanan` VALUES (3, NULL, NULL, NULL, 'Pelayanan terkait Bidang dan turunannya', 3, 2, 2, 1, 0, '', '');
-INSERT INTO `daftar_layanan` VALUES (4, NULL, NULL, NULL, 'Pelayanan terkait Bidang dan turunannya', 4, 3, 1, 1, 0, '', '');
-INSERT INTO `daftar_layanan` VALUES (5, NULL, NULL, NULL, 'Pelayanan terkait Bidang dan turunannya', 5, 4, 3, 6, 0, '', '');
-INSERT INTO `daftar_layanan` VALUES (6, NULL, NULL, NULL, 'Pelayanan terkait Bidang dan turunannya', 6, 5, 4, 2, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (1, NULL, NULL, NULL, 'Pelayanan terkait Bagian TU', 1, 1, 1, 1, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (2, NULL, NULL, NULL, 'Pelayanan terkait Pendidikan Madrasah', 2, 2, 2, 1, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (3, NULL, NULL, NULL, 'Pelayanan terkait Pendidikan Agama Islam', 3, 2, 2, 1, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (4, NULL, NULL, NULL, 'Pelayanan terkait Penyelenggara Haji dan Umrah', 4, 3, 1, 1, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (5, NULL, NULL, NULL, 'Pelayanan terkait Penerangan Agama Islam, Zakat dan Wakaf', 5, 4, 3, 6, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (6, NULL, NULL, NULL, 'Pelayanan terkait Urusan Agama Islam', 6, 5, 4, 2, 0, '', '');
 
 COMMIT;
 
