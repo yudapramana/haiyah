@@ -24,6 +24,14 @@ class UsersTableSeeder extends Seeder
                 'email' => '199407292022031002@kemenag.go.id',
                 'password' => Hash::make('superadmin'),
                 'updated_at' => \Carbon\Carbon::now()
+            ],
+            [
+                'name' => 'RHAMA EKA PUTRA, S.T, M.CIO',
+                'username' => '198605082011011013',
+                'jabatan' => 'Pranata Komputer Ahli Muda',
+                'email' => '198605082011011013@kemenag.go.id',
+                'password' => Hash::make('superadmin'),
+                'updated_at' => \Carbon\Carbon::now()
             ]
         ];
 
