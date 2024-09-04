@@ -272,15 +272,25 @@ Route::post('/store/survey', function (Request $request) {
     $answers = $data['answers'];
     $arrLength = Count($answers);
     $total = 0;
+    $sumIKM = 0;
+    $sumIPK = 0;
     foreach ($answers as $key => $item) {
         $param = 'answer_' . ($key + 1);
 
         $survey->$param = $answers[$key];
         $total += $answers[$key];
+
+        if($key <=8 ){
+            $sumIKM += $answers[$key];
+        } else {
+            $sumIPK += $answers[$key];
+        }
     }
 
     $average = number_format($total / $arrLength, 3);
     $survey->average = $average;
+    $survey->nilai_ikm = number_format((array_sum($sumIKM) / 9), 3);
+    $survey->nilai_ipk = number_format((array_sum($sumIPK) / 6), 3);
 
     $survey->save();
     $survey->fresh();
