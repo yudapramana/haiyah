@@ -289,8 +289,8 @@ Route::post('/store/survey', function (Request $request) {
 
     $average = number_format($total / $arrLength, 3);
     $survey->average = $average;
-    $survey->nilai_ikm = number_format((array_sum($sumIKM) / 9), 3);
-    $survey->nilai_ipk = number_format((array_sum($sumIPK) / 6), 3);
+    $survey->nilai_ikm = number_format(($sumIKM / 9), 3);
+    $survey->nilai_ipk = number_format(($sumIPK / 6), 3);
 
     $survey->save();
     $survey->fresh();
