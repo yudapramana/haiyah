@@ -38,13 +38,13 @@
                                     </i>
                                 </p>
 
-                                <p style="font-size:large">
+                                <!-- <p style="font-size:large">
                                     ADMIN : Pramana Yuda Sayeti, S.Kom <br>
                                     Kontak : 0896 7754 2744 <br>
                                 </p> 
                                 <br>
                                 <small>(CPNS Pranata Komputer di Subbagian Tata Usaha Kantor Kementerian Agama Kab. Pesisir
-                                    Selatan)</small>
+                                    Selatan)</small> -->
 
                             </div>
                         </div>
