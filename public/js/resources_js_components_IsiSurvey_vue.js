@@ -609,7 +609,7 @@ var _hoisted_86 = {
 };
 var _hoisted_87 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    src: "http://res.cloudinary.com/kemenagpessel/image/upload/v1685517991/arsip_masuk/gn3bzggmztxmtndmrobc.png",
+    src: "https://res.cloudinary.com/dezj1x6xp/image/upload/c_limit,h_200,w_200/v1725864352/PandanViewMandeh/QRCode_KemenagSumbar_fbju52.jpg",
     alt: "AdminLTE Logo"
   }, null, -1 /* HOISTED */);
 });
