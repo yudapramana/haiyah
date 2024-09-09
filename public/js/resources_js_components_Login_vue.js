@@ -41,7 +41,7 @@ __webpack_require__.r(__webpack_exports__);
   created: function created() {
     this.$Progress.start();
     if (this.loggedIn) {
-      this.$router.push("/profile");
+      this.$router.push("/landing");
     }
   },
   mounted: function mounted() {
@@ -53,7 +53,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
       this.loading = true;
       this.$store.dispatch("auth/login", user).then(function () {
-        _this.$router.push("/profile");
+        _this.$router.push("/landing");
       }, function (error) {
         _this.loading = false;
         _this.message = error.response && error.response.data && error.response.data.message || error.message || error.toString();

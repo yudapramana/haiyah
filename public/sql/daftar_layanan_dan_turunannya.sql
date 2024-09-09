@@ -92,6 +92,10 @@ INSERT INTO `daftar_layanan` VALUES (3, NULL, NULL, NULL, 'Pelayanan terkait Pen
 INSERT INTO `daftar_layanan` VALUES (4, NULL, NULL, NULL, 'Pelayanan terkait Penyelenggara Haji dan Umrah', 4, 3, 1, 1, 0, '', '');
 INSERT INTO `daftar_layanan` VALUES (5, NULL, NULL, NULL, 'Pelayanan terkait Penerangan Agama Islam, Zakat dan Wakaf', 5, 4, 3, 6, 0, '', '');
 INSERT INTO `daftar_layanan` VALUES (6, NULL, NULL, NULL, 'Pelayanan terkait Urusan Agama Islam', 6, 5, 4, 2, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (7, NULL, NULL, NULL, 'Bimbingan Masyarakat Kristen', 6, 5, 4, 2, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (8, NULL, NULL, NULL, 'Bimbingan Masyarakat Katolik', 6, 5, 4, 2, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (9, NULL, NULL, NULL, 'Bimbingan Masyarakat Hindu', 6, 5, 4, 2, 0, '', '');
+INSERT INTO `daftar_layanan` VALUES (10, NULL, NULL, NULL, 'Bimbingan Masyarakat Buddha', 6, 5, 4, 2, 0, '', '');
 
 COMMIT;
 
@@ -169,6 +173,11 @@ INSERT INTO `daftar_unit_pengolah` VALUES (3, NULL, NULL, NULL, 'Bidang Pendidik
 INSERT INTO `daftar_unit_pengolah` VALUES (4, NULL, NULL, NULL, 'Bidang Penyelenggara Haji dan Umrah', '', '');
 INSERT INTO `daftar_unit_pengolah` VALUES (5, NULL, NULL, NULL, 'Bidang Penerangan Agama Islam, Zakat dan Wakaf', '', '');
 INSERT INTO `daftar_unit_pengolah` VALUES (6, NULL, NULL, NULL, 'Bidang Urusan Agama Islam', '', '');
+INSERT INTO `daftar_unit_pengolah` VALUES (7, NULL, NULL, NULL, 'Bimbingan Masyarakat Kristen', '', '');
+INSERT INTO `daftar_unit_pengolah` VALUES (8, NULL, NULL, NULL, 'Bimbingan Masyarakat Katolik', '', '');
+INSERT INTO `daftar_unit_pengolah` VALUES (9, NULL, NULL, NULL, 'Bimbingan Masyarakat Hindu', '', '');
+INSERT INTO `daftar_unit_pengolah` VALUES (10, NULL, NULL, NULL, 'Bimbingan Masyarakat Buddha', '', '');
+
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;
