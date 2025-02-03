@@ -42,7 +42,7 @@
 
                     <li class="nav-item dropdown">
                         <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false" class="nav-link dropdown-toggle">Kepuasan Masyarakat</a>
+                            aria-expanded="false" class="nav-link dropdown-toggle">Idx Kepuasan Masyarakat</a>
                         <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow"
                             style="left: 0px; right: inherit;">
                             <!-- <li><a href="#" class="dropdown-item">Some action </a></li>
@@ -64,7 +64,7 @@
                                     <router-link tabindex="-1" to="rekap-tahunan?tipe_survey=ikm&year=2024"
                                         class="dropdown-item">Tahun
                                         2024</router-link>
-                                        
+
                                     <router-link tabindex="-1" to="rekap-tahunan?tipe_survey=ikm&year=2025"
                                         class="dropdown-item">Tahun
                                         2025</router-link>
@@ -151,7 +151,7 @@
 
                     <li class="nav-item dropdown">
                         <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false" class="nav-link dropdown-toggle">Persepsi Korupsi</a>
+                            aria-expanded="false" class="nav-link dropdown-toggle">Idx Persepsi Korupsi</a>
                         <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow"
                             style="left: 0px; right: inherit;">
                             <!-- <li><a href="#" class="dropdown-item">Some action </a></li>
