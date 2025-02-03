@@ -25,11 +25,12 @@
                     </li> -->
 
                     <li v-if="currentUser" class="nav-item dropdown">
-                        <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                            class="nav-link dropdown-toggle">Respon Survey</a>
+                        <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false" class="nav-link dropdown-toggle">Respon Survey</a>
                         <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow"
                             style="left: 0px; right: inherit;">
-                            <li><router-link to="response?status=submitted" class="dropdown-item">Submitted </router-link>
+                            <li><router-link to="response?status=submitted" class="dropdown-item">Submitted
+                                </router-link>
                             </li>
                             <li><router-link to="response?status=rejected" class="dropdown-item">Rejected </router-link>
                             </li>
@@ -40,8 +41,8 @@
 
 
                     <li class="nav-item dropdown">
-                        <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                            class="nav-link dropdown-toggle">Kepuasan Masyarakat</a>
+                        <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false" class="nav-link dropdown-toggle">Kepuasan Masyarakat</a>
                         <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow"
                             style="left: 0px; right: inherit;">
                             <!-- <li><a href="#" class="dropdown-item">Some action </a></li>
@@ -49,8 +50,9 @@
                             <li class="dropdown-divider"></li> -->
 
                             <li class="dropdown-submenu dropdown-hover">
-                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false" class="dropdown-item dropdown-toggle">per Tahun</a>
+                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">per
+                                    Tahun</a>
                                 <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
                                     <!-- <li>
                                         <a tabindex="-1" href="#" class="dropdown-item">level 2</a>
@@ -62,12 +64,17 @@
                                     <router-link tabindex="-1" to="rekap-tahunan?tipe_survey=ikm&year=2024"
                                         class="dropdown-item">Tahun
                                         2024</router-link>
+                                        
+                                    <router-link tabindex="-1" to="rekap-tahunan?tipe_survey=ikm&year=2025"
+                                        class="dropdown-item">Tahun
+                                        2025</router-link>
                                 </ul>
                             </li>
 
                             <li class="dropdown-submenu dropdown-hover">
-                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false" class="dropdown-item dropdown-toggle">per Triwulan</a>
+                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">per
+                                    Triwulan</a>
                                 <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
 
                                     <li class="dropdown-submenu">
@@ -112,6 +119,28 @@
                                         </ul>
                                     </li>
 
+                                    <li class="dropdown-submenu">
+                                        <a id="dropdownSubMenu3" href="#" role="button" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false"
+                                            class="dropdown-item dropdown-toggle">Tahun 2025</a>
+                                        <ul aria-labelledby="dropdownSubMenu3" class="dropdown-menu border-0 shadow">
+
+                                            <router-link tabindex="-1"
+                                                to="rekap-triwulan?tipe_survey=ikm&year=2025&quarter=1"
+                                                class="dropdown-item">Rekapitulasi Triwulan I</router-link>
+                                            <router-link tabindex="-1"
+                                                to="rekap-triwulan?tipe_survey=ikm&year=2025&quarter=2"
+                                                class="dropdown-item">Rekapitulasi Triwulan II</router-link>
+                                            <router-link tabindex="-1"
+                                                to="rekap-triwulan?tipe_survey=ikm&year=2025&quarter=3"
+                                                class="dropdown-item">Rekapitulasi Triwulan III</router-link>
+                                            <router-link tabindex="-1"
+                                                to="rekap-triwulan?tipe_survey=ikm&year=2025&quarter=4"
+                                                class="dropdown-item">Rekapitulasi Triwulan IV</router-link>
+                                        </ul>
+                                    </li>
+
+
                                 </ul>
 
 
@@ -121,8 +150,8 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                            class="nav-link dropdown-toggle">Persepsi Korupsi</a>
+                        <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false" class="nav-link dropdown-toggle">Persepsi Korupsi</a>
                         <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow"
                             style="left: 0px; right: inherit;">
                             <!-- <li><a href="#" class="dropdown-item">Some action </a></li>
@@ -130,40 +159,77 @@
                             <li class="dropdown-divider"></li> -->
 
                             <li class="dropdown-submenu dropdown-hover">
-                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false" class="dropdown-item dropdown-toggle">per Tahun</a>
+                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">per
+                                    Tahun</a>
                                 <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
                                     <!-- <li>
                                         <a tabindex="-1" href="#" class="dropdown-item">level 2</a>
                                     </li> -->
-                                    <router-link tabindex="-1" to="rekap-tahunan?tipe_survey=ipk&year=2023"
+                                    <router-link tabindex="-1" to="rekap-tahunan?tipe_survey=ipk&year=2024"
                                         class="dropdown-item">Tahun
-                                        2023</router-link>
+                                        2024</router-link>
+                                    <router-link tabindex="-1" to="rekap-tahunan?tipe_survey=ipk&year=2025"
+                                        class="dropdown-item">Tahun
+                                        2025</router-link>
                                 </ul>
                             </li>
 
                             <li class="dropdown-submenu dropdown-hover">
-                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false" class="dropdown-item dropdown-toggle">per Triwulan</a>
+                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">per
+                                    Triwulan</a>
                                 <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
 
                                     <li class="dropdown-submenu">
                                         <a id="dropdownSubMenu3" href="#" role="button" data-toggle="dropdown"
                                             aria-haspopup="true" aria-expanded="false"
-                                            class="dropdown-item dropdown-toggle">Tahun 2023</a>
+                                            class="dropdown-item dropdown-toggle">Tahun 2024</a>
                                         <ul aria-labelledby="dropdownSubMenu3" class="dropdown-menu border-0 shadow">
 
                                             <router-link tabindex="-1"
-                                                to="rekap-triwulan?tipe_survey=ipk&year=2023&quarter=1"
+                                                to="rekap-triwulan?tipe_survey=ipk&year=2024&quarter=1"
                                                 class="dropdown-item">Rekapitulasi Triwulan I</router-link>
                                             <router-link tabindex="-1"
-                                                to="rekap-triwulan?tipe_survey=ipk&year=2023&quarter=2"
+                                                to="rekap-triwulan?tipe_survey=ipk&year=2024&quarter=2"
                                                 class="dropdown-item">Rekapitulasi Triwulan II</router-link>
                                             <router-link tabindex="-1"
-                                                to="rekap-triwulan?tipe_survey=ipk&year=2023&quarter=3"
+                                                to="rekap-triwulan?tipe_survey=ipk&year=2024&quarter=3"
                                                 class="dropdown-item">Rekapitulasi Triwulan III</router-link>
                                             <router-link tabindex="-1"
-                                                to="rekap-triwulan?tipe_survey=ipk&year=2023&quarter=4"
+                                                to="rekap-triwulan?tipe_survey=ipk&year=2024&quarter=4"
+                                                class="dropdown-item">Rekapitulasi Triwulan IV</router-link>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+
+                            </li>
+
+                            <li class="dropdown-submenu dropdown-hover">
+                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">per
+                                    Triwulan</a>
+                                <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
+
+                                    <li class="dropdown-submenu">
+                                        <a id="dropdownSubMenu3" href="#" role="button" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false"
+                                            class="dropdown-item dropdown-toggle">Tahun 2025</a>
+                                        <ul aria-labelledby="dropdownSubMenu3" class="dropdown-menu border-0 shadow">
+
+                                            <router-link tabindex="-1"
+                                                to="rekap-triwulan?tipe_survey=ipk&year=2025&quarter=1"
+                                                class="dropdown-item">Rekapitulasi Triwulan I</router-link>
+                                            <router-link tabindex="-1"
+                                                to="rekap-triwulan?tipe_survey=ipk&year=2025&quarter=2"
+                                                class="dropdown-item">Rekapitulasi Triwulan II</router-link>
+                                            <router-link tabindex="-1"
+                                                to="rekap-triwulan?tipe_survey=ipk&year=2025&quarter=3"
+                                                class="dropdown-item">Rekapitulasi Triwulan III</router-link>
+                                            <router-link tabindex="-1"
+                                                to="rekap-triwulan?tipe_survey=ipk&year=2025&quarter=4"
                                                 class="dropdown-item">Rekapitulasi Triwulan IV</router-link>
                                         </ul>
                                     </li>
@@ -349,7 +415,7 @@
         reserved.
     </footer>
 </template>
-  
+
 <script>
 
 export default {
@@ -412,4 +478,5 @@ export default {
     background-color: #f8fafc !important;
     color: rgba(0, 0, 0, 0.5) !important;
     font-weight: bold;
-}</style>
+}
+</style>
